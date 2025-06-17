@@ -63,3 +63,15 @@ These define the routing environment logic and agent interaction rules.
 ### 1. Run
 ```bash
 python run.py
+
+---
+
+## 📄 Citation
+
+If you use this repository or build upon this work, please cite the following paper:
+
+> **Mondal, Md Safwan**, Subramanian Ramasamy, Luca Russo, James D. Humann, James M. Dotterweich, and Pranav Bhounsule.  
+> _"How to Coordinate UAVs and UGVs for Efficient Mission Planning? Optimizing Energy-Constrained Cooperative Routing with a DRL Framework."_  
+> arXiv preprint [arXiv:2504.21111](https://arxiv.org/abs/2504.21111), 2025.
+
+

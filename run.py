@@ -30,13 +30,9 @@ def run(opts):
     # Optionally configure tensorboard
     tb_logger = None
     if not opts.no_tensorboard:
-        
         tb_logger = TbLogger(os.path.join(opts.log_dir, "{}_{}".format(opts.problem, opts.uav_graph_size), opts.run_name))
 
     os.makedirs(opts.save_dir)
-    # Save arguments so exact configuration can always be found
-    '''with open(os.path.join(opts.save_dir, "args.json"), 'w') as f:
-        json.dump(vars(opts), f, indent=True)'''
 
     # Set the device
     opts.device = torch.device("cuda:0" if opts.use_cuda else "cpu")

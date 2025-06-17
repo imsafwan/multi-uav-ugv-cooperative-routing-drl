@@ -56,26 +56,10 @@ These define the routing environment logic and agent interaction rules.
 
 ---
 
-### 📊 Baselines
 
-- **reinforce_baselines**  
-  Includes baseline implementations to assess training stability and compare against DRL-based models.
-
----
-
-## 🧠 Key Features
-
-- Customizable UAV-UGV cooperative environment with agent switching modes
-- Transformer-based encoder-decoder routing policy
-- Sortie-wise and per-step agent alternation options
-- Sampling and greedy decoding support for evaluation
-- Modular scenario and data generation pipeline
-- Support for risk-aware and energy-constrained mission planning
-
----
 
 ## 🛠️ Usage
 
-### 1. Train a model
+### 1. Run
 ```bash
-python train_modified
+python run.py
